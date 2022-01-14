@@ -5856,7 +5856,7 @@ template {
  font-size:14px;
  font-weight:500;
  vertical-align:middle;
- color:#303133
+ color:#000
 }
 .el-switch__label.is-active{
  color:#5600a5
@@ -5884,12 +5884,12 @@ template {
  position:relative;
  width:40px;
  height:20px;
- border:1px solid #DCDFE6;
+ border:1px solid #ccccff;
  outline:0;
  border-radius:10px;
  -webkit-box-sizing:border-box;
  box-sizing:border-box;
- background:#DCDFE6;
+ background:#ccccff;
  -webkit-transition:border-color .3s,background-color .3s;
  transition:border-color .3s,background-color .3s;
  vertical-align:middle
@@ -9055,7 +9055,7 @@ template {
  border-left-color:#303133
 }
 .el-tooltip__popper.is-dark{
- background:#303133;
+ background:#000000;
  color:#ccccff
 }
 .el-tooltip__popper.is-light{
@@ -11898,7 +11898,7 @@ template {
  top:-7px;
  width:46px;
  height:26px;
- background:#13ce66;
+ background:#5600a5;
  text-align:center;
  -webkit-transform:rotate(45deg);
  transform:rotate(45deg);
@@ -11941,7 +11941,7 @@ template {
  top:-6px;
  width:40px;
  height:24px;
- background:#13ce66;
+ background:#5600a5;
  text-align:center;
  -webkit-transform:rotate(45deg);
  transform:rotate(45deg);
@@ -12087,10 +12087,10 @@ template {
  margin-right:0
 }
 .el-progress.is-success .el-progress-bar__inner{
- background-color:#67C23A
+ background-color:#5600a5
 }
 .el-progress.is-success .el-progress__text{
- color:#67C23A
+ color:#5600a5
 }
 .el-progress.is-warning .el-progress-bar__inner{
  background-color:#E6A23C
@@ -12252,7 +12252,7 @@ template {
  border-color:#e1f3d8
 }
 .el-message--success .el-message__content{
- color:#67C23A
+ color:#5600a5
 }
 .el-message--warning{
  background-color:#fdf6ec;
@@ -12290,7 +12290,7 @@ template {
  color:#909399
 }
 .el-message .el-icon-success{
- color:#67C23A
+ color:#5600a5
 }
 .el-message .el-icon-error{
  color:#F56C6C
@@ -12349,7 +12349,7 @@ template {
  background-color:#5600a5
 }
 .el-badge__content--success{
- background-color:#67C23A
+ background-color:#5600a5
 }
 .el-badge__content--warning{
  background-color:#E6A23C
@@ -12467,8 +12467,8 @@ template {
  border-color:#C0C4CC
 }
 .el-step__head.is-success{
- color:#67C23A;
- border-color:#67C23A
+ color:#5600a5;
+ border-color:#5600a5
 }
 .el-step__head.is-error{
  color:#F56C6C;
@@ -12556,7 +12556,7 @@ template {
  color:#C0C4CC
 }
 .el-step__title.is-success{
- color:#67C23A
+ color:#5600a5
 }
 .el-step__title.is-error{
  color:#F56C6C
@@ -12578,7 +12578,7 @@ template {
  color:#C0C4CC
 }
 .el-step__description.is-success{
- color:#67C23A
+ color:#5600a5
 }
 .el-step__description.is-error{
  color:#F56C6C
@@ -13184,17 +13184,17 @@ template {
 .el-tag.el-tag--success{
  background-color:#f0f9eb;
  border-color:#e1f3d8;
- color:#67c23a
+ color:#5600a5
 }
 .el-tag.el-tag--success.is-hit{
- border-color:#67C23A
+ border-color:#5600a5
 }
 .el-tag.el-tag--success .el-tag__close{
- color:#67c23a
+ color:#5600a5
 }
 .el-tag.el-tag--success .el-tag__close:hover{
  color:#ccccff;
- background-color:#67c23a
+ background-color:#5600a5
 }
 .el-tag.el-tag--warning{
  background-color:#fdf6ec;
@@ -13273,12 +13273,12 @@ template {
  background-color:#a6a9ad
 }
 .el-tag--dark.el-tag--success{
- background-color:#67c23a;
- border-color:#67c23a;
+ background-color:#5600a5;
+ border-color:#5600a5;
  color:#ccccff
 }
 .el-tag--dark.el-tag--success.is-hit{
- border-color:#67C23A
+ border-color:#5600a5
 }
 .el-tag--dark.el-tag--success .el-tag__close{
  color:#ccccff
@@ -13350,17 +13350,17 @@ template {
 .el-tag--plain.el-tag--success{
  background-color:#ccccff;
  border-color:#c2e7b0;
- color:#67c23a
+ color:#5600a5
 }
 .el-tag--plain.el-tag--success.is-hit{
- border-color:#67C23A
+ border-color:#5600a5
 }
 .el-tag--plain.el-tag--success .el-tag__close{
- color:#67c23a
+ color:#5600a5
 }
 .el-tag--plain.el-tag--success .el-tag__close:hover{
  color:#ccccff;
- background-color:#67c23a
+ background-color:#5600a5
 }
 .el-tag--plain.el-tag--warning{
  background-color:#ccccff;
@@ -13783,7 +13783,7 @@ template {
 }
 .el-color-dropdown__btn{
  border:1px solid #dcdcdc;
- color:#67C23A; /*Not too sure what this controls so im going to maake it green to stand out like a sore thumb*/
+ color:#5600a5; /*Not too sure what this controls so im going to maake it green to stand out like a sore thumb*/
  line-height:24px;
  border-radius:2px;
  padding:0 20px;
@@ -14582,7 +14582,7 @@ template {
  background-color:#5600a5
 }
 .el-timeline-item__node--success{
- background-color:#67C23A
+ background-color:#5600a5
 }
 .el-timeline-item__node--warning{
  background-color:#E6A23C
@@ -14691,10 +14691,10 @@ template {
  color:#fab6b6
 }
 .el-link.el-link--success.is-underline:hover:after,.el-link.el-link--success:after{
- border-color:#67C23A
+ border-color:#5600a5
 }
 .el-link.el-link--success{
- color:#67C23A
+ color:#5600a5
 }
 .el-link.el-link--success:hover{
  color:#85ce61
@@ -15106,8 +15106,8 @@ template {
 }
 .el-button--success{
  color:#ccccff;
- background-color:#67C23A;
- border-color:#67C23A
+ background-color:#5600a5;
+ border-color:#5600a5
 }
 .el-button--success:focus,.el-button--success:hover{
  background:#85ce61;
@@ -15128,13 +15128,13 @@ template {
  border-color:#b3e19d
 }
 .el-button--success.is-plain{
- color:#67C23A;
+ color:#5600a5;
  background:#f0f9eb;
  border-color:#c2e7b0
 }
 .el-button--success.is-plain:focus,.el-button--success.is-plain:hover{
- background:#67C23A;
- border-color:#67C23A;
+ background:#5600a5;
+ border-color:#5600a5;
  color:#ccccff
 }
 .el-button--success.is-plain:active{
@@ -15238,8 +15238,8 @@ template {
 }
 .el-button--info{
  color:#ccccff;
- background-color:#909399;
- border-color:#909399
+ background-color:#000;
+ border-color:#000
 }
 .el-button--info:focus,.el-button--info:hover{
  background:#a6a9ad;
@@ -15256,8 +15256,8 @@ template {
 }
 .el-button--info.is-disabled,.el-button--info.is-disabled:active,.el-button--info.is-disabled:focus,.el-button--info.is-disabled:hover{
  color:#ccccff;
- background-color:#c8c9cc;
- border-color:#c8c9cc
+ background-color:#ccccff;
+ border-color:#ccccff
 }
 .el-button--info.is-plain{
  color:#909399;
@@ -15265,8 +15265,8 @@ template {
  border-color:#d3d4d6
 }
 .el-button--info.is-plain:focus,.el-button--info.is-plain:hover{
- background:#909399;
- border-color:#909399;
+ background:#000000;
+ border-color:#000000;
  color:#ccccff
 }
 .el-button--info.is-plain:active{
@@ -15276,9 +15276,9 @@ template {
  outline:0
 }
 .el-button--info.is-plain.is-disabled,.el-button--info.is-plain.is-disabled:active,.el-button--info.is-plain.is-disabled:focus,.el-button--info.is-plain.is-disabled:hover{
- color:#bcbec2;
- background-color:#f4f4f5;
- border-color:#e9e9eb
+ color:#ccccff;
+ background-color:#ccccff;
+ border-color:#ccccff
 }
 .el-button--text,.el-button--text.is-disabled,.el-button--text.is-disabled:focus,.el-button--text.is-disabled:hover,.el-button--text:active{
  border-color:transparent
@@ -16824,7 +16824,7 @@ template {
  margin-top:30px
 }
 .el-result .icon-success{
- fill:#67C23A
+ fill:#5600a5
 }
 .el-result .icon-error{
  fill:#F56C6C
@@ -18212,7 +18212,7 @@ fieldset[disabled] .vue-swatches{
 }
 .color-palettes{
  background:#5600a5;
- background:#67c23a;
+ background:#5600a5;
  background:#e6a23c;
  background:#f56c6c;
  background:#909399;
@@ -18480,7 +18480,7 @@ a{
  background:#dfca43
 }
 .x-friend-item>.avatar.online::after{
- background:#67c23a
+ background:#5600a5
 }
 .x-friend-item>.avatar.joinme::after{
  background:#5600a5
@@ -18520,7 +18520,7 @@ a{
  cursor:pointer
 }
 .x-friend-item>.current-vrcplus-icon{
- border:4px solid #67c23a;
+ border:4px solid #5600a5;
  cursor:default
 }
 .x-friend-item>.vrcplus-icon>img{
@@ -18542,7 +18542,7 @@ a{
  height:180px
 }
 .current-image{
- border:2px solid #67c23a;
+ border:2px solid #5600a5;
  padding:2px 2px 0 2px
 }
 .x-dialog>.el-dialog{
@@ -18573,7 +18573,7 @@ i.x-user-status.active{
  background:#dfca43
 }
 i.x-user-status.online{
- background:#67c23a
+ background:#5600a5
 }
 i.x-user-status.joinme{
  background:#5600a5
@@ -18597,8 +18597,8 @@ i.x-user-status.busy{
  border-color:#5600a5 !important
 }
 .x-tag-platform-quest{
- color:#67c23a !important;
- border-color:#67c23a !important
+ color:#5600a5 !important;
+ border-color:#5600a5 !important
 }
 .el-tree-node{
  white-space:normal
@@ -18658,13 +18658,13 @@ i.x-user-status.busy{
 }
 .disableToggleSwitch ul li label{
  background-color:#ccccff !important;
- color:#8cc4ff !important;
- border-color:#8cc4ff !important;
+ color:#5600a5 !important;
+ border-color:#5600a5 !important;
  cursor:not-allowed !important
 }
 .el-button--success{
- background-color:#67c23a !important;
- border-color:#67c23a !important
+ background-color:#5600a5 !important;
+ border-color:#5600a5 !important
 }
 .el-button--danger{
  background-color:#f56c6c !important;
