@@ -2,9 +2,9 @@
 <h1 align="center">A list of themes for VRCX that I have created </h1>
 
 <h2 align="center"> K-UI </h2> <br />
-Inspired by the colour scheme of KiraiUI **#5600a5** and **#ccccff** a dark black and purple re colour of VRCX <br />
+Inspired by the colour scheme of KiraiUI #5600a5 and #ccccff a dark black and purple re colour of VRCX <br />
 <img width="915" alt="K-UI Image" src="https://user-images.githubusercontent.com/31026406/149541580-e34d8894-22a4-4cb4-b1a3-e58e5ba5011f.png"> <br />
-Please set VRCX to dark theme **prior** to using or it **WILL NOT** work<br />
+Please set VRCX to dark theme prior to using or it WILL NOT work<br />
 <br />
 <h2 align="center"> Installation Instructions. </h2> <br />
 * Location your VRCX install location `C:\Program Files\VRCX` for me. <br />
