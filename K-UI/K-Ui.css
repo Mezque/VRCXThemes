@@ -1,0 +1,177 @@
+:root {
+    --info: "K-Ui v1.0 by Mezque <3";
+    --background: #000;
+    --purple: #5600a5;
+    --text: #ccccff;
+    --disabled: #a50000;
+	--blur: 3px;
+	--blur-more: 8px;
+	--purple-rgb: 86, 0, 165,100;
+	--background-RGB: 0, 0, 0,100; 
+}
+/*background components here, so bascially everything below is just backgrounds and shit*/ 
+.x-container { background: var(--background);}
+.x-menu-container { background: var(--background);}
+.x-aside-container { background: var(--background);}
+.el-dialog__body { background: var(--background);}
+.el-dialog{background-color: var(--background);}
+.el-table__empty-block{background-color: var(--background);}
+.el-dropdown-menu__item--divided::before{background-color: var(--background);}
+.x-friend-item:hover{background-color: var(--purple);}
+.el-menu-item.is-active::before{background: var(--purple);}
+.el-menu-item:hover{background-color: var(--purple);}
+.el-dialog, .el-pager li{background-color: var(--background);}
+.el-tooltip__propper.el-popper[x-placement^=right] .popper__arrow{border-right-color: var(--background);}
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{background-color:var(--purple);}
+.el-tooltip__popper.is-dark
+{
+    background-color: var(--background);
+    color: var(--text);
+}
+.el-pagination button:disabled
+{
+color: var(--disabled);
+background-color: var(--background);
+}
+.el-dropdown-menu
+{
+    background-color:var(--background);
+    border-color:var(--purple);
+}
+.el-popper[x-placement^=bottom] .popper__arrow::after{border-bottom-color: var(--background);} /*little arrow guy background on the drop downs*/
+.el-popper[x-placement^=bottom] .popper__arrow{border-bottom-color: var(--purple);} /*little arrow guy outline on the drop downs*/
+.el-button
+{
+    background-color:var(--background)!important;
+    border-color: var(--purple)!important;
+}
+.el-button:not(.el-button--text,.el-button--primary,.is-disabled)
+{
+    background-color:var(--background);
+    border-color: var(--purple);
+}
+.el-button:not(.el-button--text,.el-button--primary,.is-disabled):focus, .el-button:not(.el-button--text,.el-button--primary,.is-disabled):hover
+{
+    color:var(--purple);
+    background-color:var(--background);
+    border-color: var(--purple);
+}
+
+/*tables stuff*/
+.el-table
+{ 
+    color: var(--text); 
+    background-color: var(--purple);
+}
+.el-table thead
+{
+    color: var(--text);
+}
+.el-table tr, .el-table td.el-table__cell, .el-table th.el-table__cell
+{
+    background-color: var(--background); /*table backgrounds 1*/
+    border-bottom: var(--purple); /*border of them*/
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell
+{
+    background-color: var(--background);
+}
+/*Buttons below table lists*/ 
+.el-input__inner
+{   background: var(--background) !important; 
+    border: var(--purple) !important;
+    color: var(--text) !important; 
+}
+
+/*text and stuff*/
+.el-dialog__body{color: var(--text);}
+.x-friend-item>.detail>.extra{color: var(--text);}
+.x-friend-item>.detail>.name{color: var(--text);}
+.el-tabs__item.is-active{color: var(--text);} /*user profile top bar thing with the words and the line doodad selected text*/
+.el-tabs__active-bar{background-color: var(--text);} /*user profile top bar thing with the words and the line doodad line below text (don't cry that its under text stuff looool)*/
+.el-tabs__item{color: var(--purple);} /*Same as above but the non-selected ones*/
+.el-tabs__nav-wrap::after{background-color: var(--purple);} /*and with an iq of above 2.4353 you can probably guess but this is the selected bar lol, someone just said hello children I AM the homebox so i thought i would document that like a personal journal cause i found it funny :) */
+.el-dropdown-menu__item{color: var(--text)} /*drop down menu text*/
+.el-pagination__total{color: var(--text);} /*"total" text*/
+.el-pager li.active{color: var(--purple);} /*selected number below table text*/
+.el-pagination .btn-next, .el-pagination .btn-prev{background-color: var(--background)} /*buttons background*/
+body, input, textarea, select, button{color: var(--text);} /*header*/
+.el-switch__label.is-active {color: var(--purple);}
+.el-switch__label {color: var(--text);}
+.el-tabs__item:hover{color: var(--purple);}
+.el-radio__input.is-checked+.el-radio__label{color: var(--purple);}
+.el-radio{color: var(--text);}
+.x-friend-list>.x-friend-group {color: var(--purple);}
+
+/*Icons and buttons and yeah i am lazy i dont want to organize anymore*/
+.el-button{color: var(--text);}
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active
+{
+    border-bottom-color: var(--purple);
+    border-left-color: var(--purple);
+}
+.el-tabs--card>.el-tabs__header .el-tabs__nav{border: 1px solid var(--purple);}
+.el-tabs--card>.el-tabs__header .el-tabs__item{border-left-color: var(--purple);}
+.el-menu-item.notify::after{background: var(--purple);}
+.el-radio__input.is-checked .el-radio__inner
+{
+    border-color: var(--purple);
+    background: var(--purple);
+}
+.el-radio__inner::after{background-color: var(--background);}
+.el-menu-item i {color: var(--text);} /*sidebar icons*/
+.el-menu-item.is-active{color:var(--purple)} /*side bar selected icon*/
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev{color:var(--text)} /*the ... below tables*/
+.el-pager li{color: var(--text);} /*boxes below tables text*/
+.el-pagination .btn-next, .el-pagination .btn-prev{color:var(--text)}/*boxes arrow beside tables text*/
+.el-select .el-input .el-select__caret {color: var(--text);}/*boxes arrow beside tables text facing down guy*/
+.el-switch__core
+{
+    border-color: var(--purple);
+    background-color: var(--background);
+}
+.el-switch.is-checked .el-switch__core /*switch toggles*/
+{
+    border-color: var(--purple);
+    background-color: var(--background);
+}
+.el-switch__core:after {background-color: var(--purple);}/*switch buttons*/
+.el-slider__bar {background-color: var(--purple);}
+.el-slider__runway {background-color: var(--text);}
+.el-slider__button
+{
+    border: var(--purple);
+    background-color: var(--purple);
+}
+.el-radio-button__inner
+{
+    color: var(--text);
+    background: var(--background);
+    border: 1px solid var(--text);
+}
+.el-radio-button__orig-radio:checked+.el-radio-button__inner
+{
+    color: var(--purple);
+    border-color: var(--purple);
+    background-color: var(--background);
+}
+.el-radio-button__inner:hover{color: var(--purple)};
+.el-radio-button__orig-radio:disabled+.el-radio-button__inner
+{
+    color: var(--purple);
+    background-color: var(var(--background));
+    border-color: var(var(--purple));
+}
+.el-radio__inner
+{
+    border: 1px solid var(--purple);
+    background-color:var(--background);
+}
+::-webkit-scrollbar-track{
+    background:rgba(0,0,0,.0);
+    border-radius:16px
+}
+::-webkit-scrollbar-thumb{
+    background:rgba(86,0,165,1);
+    border-radius:16px
+}
