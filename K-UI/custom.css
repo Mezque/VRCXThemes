@@ -14,6 +14,8 @@
 .x-menu-container { background: var(--background);}
 .x-aside-container { background: var(--background);}
 .el-dialog__body { background: var(--background);}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{border-bottom: var(--background);} /*table top*/
+.el-table--border::after, .el-table--group::after, .el-table::before{background-color: var(--background)}/*table bottom*/
 .el-dialog{background-color: var(--background);}
 .el-table__empty-block{background-color: var(--background);}
 .el-dropdown-menu__item--divided::before{background-color: var(--background);}
@@ -21,8 +23,19 @@
 .el-menu-item.is-active::before{background: var(--purple);}
 .el-menu-item:hover{background-color: var(--purple);}
 .el-dialog, .el-pager li{background-color: var(--background);}
+.el-select-dropdown{background-color: var(--background);}
+.el-select-dropdown{border: var(--purple);}
 .el-tooltip__propper.el-popper[x-placement^=right] .popper__arrow{border-right-color: var(--background);}
 .el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{background-color:var(--purple);}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{color: var(--purple);}
+
+.el-tabs--card>.el-tabs__header{border-bottom-color: var(--purple);}
+.el-tag.el-tag--info{background-color: var(--background);}
+.el-tree
+{
+    color: var(--text);
+    background-color: var(--background);
+}
 .el-tooltip__popper.is-dark
 {
     background-color: var(--background);
@@ -84,6 +97,7 @@ background-color: var(--background);
 }
 
 /*text and stuff*/
+.el-select-dropdown__item{color: var(--text);}
 .el-dialog__body{color: var(--text);}
 .x-friend-item>.detail>.extra{color: var(--text);}
 .x-friend-item>.detail>.name{color: var(--text);}
@@ -104,6 +118,12 @@ body, input, textarea, select, button{color: var(--text);} /*header*/
 .x-friend-list>.x-friend-group {color: var(--purple);}
 
 /*Icons and buttons and yeah i am lazy i dont want to organize anymore*/
+span.el-switch__core.element.style
+{
+    border-color: var(--purple-rgb);
+    background-color: var(--background-RGB);
+}
+.el-table__expand-icon{color: var(--purple);}
 .el-button{color: var(--text);}
 .el-tabs--card>.el-tabs__header .el-tabs__item.is-active
 {
@@ -167,6 +187,8 @@ body, input, textarea, select, button{color: var(--text);} /*header*/
     border: 1px solid var(--purple);
     background-color:var(--background);
 }
+.el-table .descending .sort-caret.descending{border-top-color: var(--purple);} /*arrow top*/
+.el-table .ascending .sort-caret.ascending{border-bottom-color: var(--purple)}/*arrow bottom*/
 ::-webkit-scrollbar-track{
     background:rgba(0,0,0,.0);
     border-radius:16px
@@ -175,3 +197,12 @@ body, input, textarea, select, button{color: var(--text);} /*header*/
     background:rgba(86,0,165,1);
     border-radius:16px
 }
+.el-tree-node__expand-icon{color: var(--purple);}
+.el-tree-node__content:hover{background-color: var(--purple);}
+.el-collapse-item__header
+{
+    color: var(--text);
+    border-bottom-color: var(--text);
+}
+
+body, input, textarea, select, button{color: var(--text);}
