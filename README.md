@@ -4,8 +4,7 @@
 <h2 align="center"> Installation Instructions. </h2> <br />
 * Navigate to %AppData%\VRCX <br />
 * Place one of the custom.css files into %AppData%\VRCX your final file path should be %AppData%\VRCX\custom.css for the theme loader <br />
-* MAKE SURE VRCX IS ON DARK THEME!!!
-* <img width="301" alt="VRCX Dark Theme Toggle" src="https://user-images.githubusercontent.com/31026406/149541994-b5a737e2-d8a3-4965-846d-0d4acf776b6c.png"> <br />
+* MAKE SURE VRCX IS ON DARK THEME!!!<img width="301" alt="VRCX Dark Theme Toggle" src="https://user-images.githubusercontent.com/31026406/149541994-b5a737e2-d8a3-4965-846d-0d4acf776b6c.png"> <br />
 * Launch VRCX<br />
 * And you're finished you should now have a black and purple theme on VRCX.<br />
 <br />
