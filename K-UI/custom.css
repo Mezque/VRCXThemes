@@ -1,16 +1,15 @@
 :root {
-    --info: "K-Ui v1.0 by Mezque <3";
-    --background: #000;
-    --purple: #5600a5;
-    --text: #ccccff;
-    --disabled: #a50000;
-	--blur: 3px;
-	--blur-more: 8px;
+	--info: "K-Ui v1.0 by Mezque <3";
+	--background: #000;
+	--purple: #5600a5;
+	--text: #ccccff;
+	--disabled: #a50000;
 	--purple-rgb: 86, 0, 165,100;
 	--background-RGB: 0, 0, 0,100; 
 }
 /*background components here, so bascially everything below is just backgrounds and shit*/ 
 .x-container { background: var(--background);}
+.el-message-box { background: var(--background);}
 .x-menu-container { background: var(--background);}
 .x-aside-container { background: var(--background);}
 .el-dialog__body { background: var(--background);}
