@@ -8,7 +8,6 @@
 	--background-RGB: 0, 0, 0,100; 
 }
 /*background components here, so bascially everything below is just backgrounds and shit*/ 
-a { color: var(--text) !important;}
 .x-container { background: var(--background);}
 .el-message-box { background: var(--background);}
 .x-menu-container { background: var(--background);}
