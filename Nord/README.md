@@ -1,16 +1,7 @@
-<h1 align="center"> VRCX Themes. </h1>
-<h3 align="center">A list of themes for VRCX that I have created. </h3>
+place custom.css into `%AppData%\VRCX` and restart vrcx or pess ctrl + R to relaod. Theme applied :trollface:👍 <br/>
 
-<h3 align="center"> Installation Instructions. </h3> <br />
-
-* Currently you ***MUST*** be on the beta build of VRCX to use custom themes! <img width="664" alt="vrcx update" src="https://user-images.githubusercontent.com/31026406/150817920-b64e7704-7493-47aa-8909-27c7862148c6.png"><br />
-* Navigate to `%AppData%\VRCX` <br />
-* Place one of the custom.css files into `%AppData%\VRCX` your final file path should be `%AppData%\VRCX\custom.css` for the theme loader. You can find the custom.css files in the themes folder on this repo.<br />
-* Launch/reload VRCX<br />
-<h2 align="center"> Theme List. </h2>
-<h3 align="center"> Nord </h3> <br />
-
-Based off [Nord](https://www.nordtheme.com "Nord Theme") Colour scheme <br/>
+These themes are based off the [Nord](https://www.nordtheme.com "Nord Theme") Colour scheme.<br/>
+Nord-Blue theme <br/>
 <img width="1029" alt="nord blue vrcx" src="https://user-images.githubusercontent.com/31026406/150814115-ac626382-fb99-4105-826a-9107a1929841.png"><br />
 To complement Nord Theme I would reccomend that you head into VRCX settings and do the following with trust rank colours. <br />
 * Set Visitor to `#D8DEE9`.  <img width="100" alt="image" src="https://user-images.githubusercontent.com/31026406/150820400-46d0bf7a-deeb-4ac2-bcaa-5b4da75f1e38.png">
@@ -22,10 +13,7 @@ To complement Nord Theme I would reccomend that you head into VRCX settings and 
 * Set VRChat Team to `#BF616A`. <img width="119" alt="image" src="https://user-images.githubusercontent.com/31026406/150820615-90a5beb6-4cba-4212-9097-e4137a287b8e.png">
 * Set Nuisance to `782F2F`.  <img width="95" alt="image" src="https://user-images.githubusercontent.com/31026406/150820670-1d070aa1-a9b3-4c9e-9329-932366f84bfc.png">
 * Set Legendary to `C85D92` Or disable. <img width="119" alt="image" src="https://user-images.githubusercontent.com/31026406/150820785-4d73b55c-5fc0-4b9d-b053-b13236a0461d.png">
-
-<h3 align="center"> K-UI </h3> <br />
-Inspired by the colour scheme of KiraiUI #5600a5 and #ccccff a dark black and purple re colour of VRCX <br />
-<img width="915" alt="K-UI Image" src="https://user-images.githubusercontent.com/31026406/149541580-e34d8894-22a4-4cb4-b1a3-e58e5ba5011f.png"> <br />
-<br />
-
-**Any issues feel free to create an issue on the repo or contact me `Mezque#2381` and I can look into it as soon as I get a chance.**<br />
+<br/>
+to do, <br/>
+1. Make the rest of the Nord Aurora colours into themes. <br/>
+2. Make a light theme edition of the Nord themes using the Nord Snow Storm colours. <br/> 
