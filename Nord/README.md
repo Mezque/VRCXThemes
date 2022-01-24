@@ -1,4 +1,4 @@
-place custom.css into %AppData%\VRCX and restart vrcx or pess ctrl + R to relaod. Theme applied :trollface:👍 <br/>
+place custom.css into `%AppData%\VRCX` and restart vrcx or pess ctrl + R to relaod. Theme applied :trollface:👍 <br/>
 
 These themes are based off the [Nord](https://www.nordtheme.com "Nord Theme") Colour scheme.<br/>
 Nord-Blue theme <br/>
