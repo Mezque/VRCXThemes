@@ -12,6 +12,17 @@
 
 Based off [Nord](https://www.nordtheme.com "Nord Theme") Colour scheme <br/>
 <img width="1029" alt="nord blue vrcx" src="https://user-images.githubusercontent.com/31026406/150814115-ac626382-fb99-4105-826a-9107a1929841.png"><br />
+To complement Nord Theme I would reccomend that you head into VRCX settings and do the following with trust rank colours. <br />
+* Set Visitor to `#D8DEE9`
+* Set New User to `#5E81AC`
+* Set User to `#A3BE8C`
+* Set Known User to `#D08770`
+* Set Trusted User to `#B48EAD`
+* Set Veteran User to `#EBCB8B`
+* Set VRChat Team to `#BF616A`
+* Set Nuisance to `782F2F`
+* Set Legendary to `C85D92` Or disable.
+
 <h3 align="center"> K-UI </h3> <br />
 Inspired by the colour scheme of KiraiUI #5600a5 and #ccccff a dark black and purple re colour of VRCX <br />
 <img width="915" alt="K-UI Image" src="https://user-images.githubusercontent.com/31026406/149541580-e34d8894-22a4-4cb4-b1a3-e58e5ba5011f.png"> <br />
