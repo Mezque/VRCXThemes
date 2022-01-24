@@ -37,7 +37,7 @@
 .el-tag.el-tag--info{background-color: var(--background);}
 .el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover
 {
-    color:var(--mainc);
+    color:var(--text);
     background-color:var(--mainc);
 }
 .el-tree
