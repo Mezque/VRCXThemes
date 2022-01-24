@@ -9,7 +9,7 @@
 
 <h2 align="center"> Theme List. </h2> <br />
 <h2 align="center"> Nord </h2> <br />
-Based off [Nord Theme](https://www.nordtheme.com/) Colour scheme <br/>
+Based off [Nord Theme](https://www.nordtheme.com) Colour scheme <br/>
 <img width="1029" alt="nord blue vrcx" src="https://user-images.githubusercontent.com/31026406/150814115-ac626382-fb99-4105-826a-9107a1929841.png"><br />
 <h2 align="center"> K-UI </h2> <br />
 Inspired by the colour scheme of KiraiUI #5600a5 and #ccccff a dark black and purple re colour of VRCX <br />
