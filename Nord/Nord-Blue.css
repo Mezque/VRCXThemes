@@ -27,7 +27,7 @@
 .el-menu-item.is-active::before{background: var(--mainc);}
 .el-menu-item:hover{background-color: var(--mainc);}
 .el-dialog, .el-pager li{background-color: var(--background);}
-.el-select-dropdown{background-color: var(--background);}
+.el-select-dropdown,.x-login-container{background-color: var(--background);}
 .el-select-dropdown{border: var(--mainc);}
 .el-tooltip__propper.el-popper[x-placement^=right] .popper__arrow{border-right-color: var(--background);}
 .el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{background-color:var(--mainc);}
@@ -50,7 +50,7 @@
 color: var(--disabled);
 background-color: var(--background);
 }
-.el-dropdown-menu,.el-message-box
+.el-dropdown-menu,.el-message-box,.el-popover
 {
     background-color:var(--background);
     border-color:var(--mainc);
@@ -102,6 +102,8 @@ background-color: var(--background);
 }
 
 /*text and stuff*/
+.el-checkbox__input.is-checked+.el-checkbox__label{color: var(--mainc);}
+.el-popover{color: var(--text);}
 .el-message-box__headerbtn .el-message-box__close{color: var(--text);}
 .el-message-box__content,.el-message-box__title{color:var(--text);}
 .el-select-dropdown__item{color: var(--text);}
@@ -109,7 +111,7 @@ background-color: var(--background);
 {
     color: var(--text);
 }
-.x-friend-item>.detail>.extra{color: var(--text);}
+.x-friend-item>.detail>.extra,.x-login-container p,.el-checkbox{color: var(--text);}
 .x-friend-item>.detail>.name{color: var(--text);}
 .el-tabs__item.is-active{color: var(--text);} /*user profile top bar thing with the words and the line doodad selected text*/
 .el-tabs__active-bar{background-color: var(--text);} /*user profile top bar thing with the words and the line doodad line below text (don't cry that its under text stuff looool)*/
@@ -129,6 +131,12 @@ body, input, textarea, select, button{color: var(--text);} /*header*/
 .avatar-info-public{color: var(--green);}
 
 /*Icons and buttons and yea*/
+.el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{color: var(--disabled);}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner
+{
+    background-color: var(--mainc);
+    border-color: var(--mainc);
+}
 .el-tag--plain.el-tag--success{background-color: var(--background);}
 .el-tag--plain.el-tag--success{border-color: var(--green); color: var(--green);}
 .el-message-box__status.el-icon-info {color: var(--mainc);}
