@@ -6,7 +6,7 @@
 * Place one of the custom.css files into %AppData%\VRCX your final file path should be %AppData%\VRCX\custom.css for the theme loader <br />
 * Launch VRCX<br />
 * And you're finished you should now have a black and purple theme on VRCX.<br />
-<br />
+
 <h2 align="center"> Theme List. </h2> <br />
 <h2 align="center"> K-UI </h2> <br />
 Inspired by the colour scheme of KiraiUI #5600a5 and #ccccff a dark black and purple re colour of VRCX <br />
