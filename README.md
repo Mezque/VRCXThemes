@@ -44,4 +44,5 @@ Inspired by the colour scheme of KiraiUI `#5600a5` and `#ccccff` a dark black an
 <br />
   </details>
 
-**Any issues feel free to create an issue on the repo or contact me `Mezque#2381` and I can look into it as soon as I get a chance.**<br />
+**If there are any problems, feel free to create an issue on the repo or contact me Mezque#2381 and I can look into it as soon as I get a chance.**
+
