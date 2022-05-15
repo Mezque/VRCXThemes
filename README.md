@@ -25,10 +25,8 @@ To complement Nord Theme I would reccomend that you head into VRCX settings and 
 * Set User to `#A3BE8C`.  <img width="77" alt="image" src="https://user-images.githubusercontent.com/31026406/150820507-e207e97c-7852-47e2-abf4-49b9348798f8.png">
 * Set Known User to `#D08770`.  <img width="112" alt="image" src="https://user-images.githubusercontent.com/31026406/150820532-b279821b-a9ac-4c03-92a6-5b4e34119b3d.png">
 * Set Trusted User to `#B48EAD`.  <img width="115" alt="image" src="https://user-images.githubusercontent.com/31026406/150820550-b1c7a2e6-ca8b-40e0-bb2b-1337953c3978.png">
-* Set Veteran User to `#EBCB8B`.  <img width="113" alt="image" src="https://user-images.githubusercontent.com/31026406/150820571-67404f4a-5eb3-4244-87c7-43f99e491d51.png">
 * Set VRChat Team to `#BF616A`. <img width="119" alt="image" src="https://user-images.githubusercontent.com/31026406/150820615-90a5beb6-4cba-4212-9097-e4137a287b8e.png">
 * Set Nuisance to `782F2F`.  <img width="95" alt="image" src="https://user-images.githubusercontent.com/31026406/150820670-1d070aa1-a9b3-4c9e-9329-932366f84bfc.png">
-* Set Legendary to `C85D92` Or disable. <img width="119" alt="image" src="https://user-images.githubusercontent.com/31026406/150820785-4d73b55c-5fc0-4b9d-b053-b13236a0461d.png">
     </details>
   
 </details>
