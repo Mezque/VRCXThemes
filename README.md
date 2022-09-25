@@ -6,7 +6,11 @@
 * Navigate to `%AppData%\VRCX` <br />
 * Place one of the custom.css files into `%AppData%\VRCX` your final file path should be `%AppData%\VRCX\custom.css` for the theme loader. You can find the custom.css files in the themes folder on this repo.<br />
 * Launch/reload VRCX<br />
+
+<!-- --------------------------------------[ Theme List Starts ]-------------------------------------- -->
+
 <h2 align="center"> Theme List. </h2>
+<!-- --------------------------------------[ Nord Section ]-------------------------------------- -->
 <h3 align="center"> Nord </h3> <br />
 <details>
   <summary>Nord Theme</summary>
@@ -15,7 +19,7 @@
 Based off [Nord](https://www.nordtheme.com "Nord Theme") Colour scheme <br/>
 
 <img width="1029" alt="nord blue vrcx" src="https://user-images.githubusercontent.com/31026406/150814115-ac626382-fb99-4105-826a-9107a1929841.png"><br />
-  
+<!-- --------------------------------------[ Colours For Nord ]-------------------------------------- -->
 To complement Nord Theme I would reccomend that you head into VRCX settings and do the following with trust rank colours. <br />
   <details>
     <summary>Trust Rank Colour Suggestions</summary>
@@ -28,9 +32,11 @@ To complement Nord Theme I would reccomend that you head into VRCX settings and 
 * Set VRChat Team to `#BF616A`. <img width="119" alt="image" src="https://user-images.githubusercontent.com/31026406/150820615-90a5beb6-4cba-4212-9097-e4137a287b8e.png">
 * Set Nuisance to `782F2F`.  <img width="95" alt="image" src="https://user-images.githubusercontent.com/31026406/150820670-1d070aa1-a9b3-4c9e-9329-932366f84bfc.png">
     </details>
-  
+<!-- --------------------------------------[ End Of Colours For Nord ]-------------------------------------- -->
 </details>
+<!-- --------------------------------------[ End of Nord Section ]-------------------------------------- -->
 
+<!-- --------------------------------------[K-Ui (kirai ui) Section]-------------------------------------- -->
 <h3 align="center"> K-UI </h3> <br />
 
 <details>
@@ -39,6 +45,18 @@ To complement Nord Theme I would reccomend that you head into VRCX settings and 
 Inspired by the colour scheme of KiraiUI `#5600a5` and `#ccccff` a dark black and purple re colour of VRCX <br />
 
 <img width="915" alt="K-UI Image" src="https://user-images.githubusercontent.com/31026406/149541580-e34d8894-22a4-4cb4-b1a3-e58e5ba5011f.png"> <br />
+<br />
+  </details>
+<!-- --------------------------------------[End Of K-Ui (kirai ui) Section]-------------------------------------- -->
+<!-- --------------------------------------[Midnight Section]-------------------------------------- -->
+<h3 align="center"> Midnight Purple </h3> <br />
+
+<details>
+  <summary>Midnight Purple</summary> <br />
+
+A flat dark theme with purple accent re colour of VRCX <br />
+
+<img width="946" alt="midnight purple" src="https://user-images.githubusercontent.com/31026406/192151568-7c359f79-6d30-4fc4-82c9-553c189ef7a9.png"><br />
 <br />
   </details>
 
