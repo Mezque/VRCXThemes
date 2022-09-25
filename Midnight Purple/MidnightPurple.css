@@ -1,0 +1,293 @@
+:root {
+    --info: "Midnight Purple v1.0 by Mezque <3";
+
+    --background: #282a36;
+    --bg2: #17161B;
+    --mainc: #bd93f9;
+    --text: #f8f8f2;
+    --disabled: #ff5555;
+    --blue: #6272a4;
+    --green: #50fa7b;
+    --yellow: #EBCB8B;
+    --orange: #ffb86c;
+	--mainc-rgb: 94,129,172,1;
+	--background-RGB: 0, 0, 0,1; 
+}
+.x-container { background: var(--bg2);}
+.x-menu-container { background: var(--bg2);}
+.el-collapse-item__wrap{background-color: var(--background); border-bottom-color: var(--mainc);}
+.el-table__expanded-cell:hover{background-color: var(--mainc)!important;}
+.x-aside-container {background: var(--bg2);}
+.el-dialog__body{
+    background: var(--background);
+}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{border-bottom: var(--background);} /*table top*/
+.el-table--border::after, .el-table--group::after, .el-table::before{background-color: var(--background)}/*table bottom*/
+.el-dialog{
+    border-radius: 5px;
+    background-color: var(--background);
+    border-color: var(--bg2)!important;
+}
+.el-table__empty-block{background-color: var(--background);}
+.el-dropdown-menu__item--divided::before{background-color: var(--background);}
+.x-friend-item:hover{background-color: var(--mainc);}
+.el-menu-item.is-active::before{background: var(--mainc);}
+.el-menu-item:hover{background-color: var(--mainc);}
+.el-dialog, .el-pager li{background-color: var(--background);}
+.el-select-dropdown,.x-login-container{background-color: var(--background);}
+.el-select-dropdown{border: var(--mainc);}
+/*.el-tooltip__propper.el-popper[x-placement^=right] .popper__arrow{border-right-color: var(--background);}*/
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{ /*Background table hover primary */
+    background-color: var(--mainc);
+    animation-name: RGBbg 10s ease-in-out infinite;
+}
+.el-tooltip__popper.is-dark{
+    background: var(--background)!important;
+    background-color: var(--background)!important;
+    color: var(--text);
+    border-color: var(--bg2)!important;
+    
+}
+::-webkit-scrollbar-thumb
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{color: var(--mainc);}
+.el-tree-node:focus>.el-tree-node__content{background-color: var(--mainc);}
+.el-tabs--card>.el-tabs__header{border-bottom-color: var(--mainc);}
+.el-tag.el-tag--info{background-color: var(--background);}
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover
+{
+    color:var(--text);
+    background-color:var(--mainc);
+    animation-name: RGB 10s ease-in-out infinite;
+}
+.el-tree
+{
+    color: var(--text);
+    background-color: var(--background);
+}
+.el-pagination button:disabled
+{
+color: var(--disabled);
+background-color: var(--background);
+}
+.x-user-dialog>.el-dialog>.el-dialog__body, .x-world-dialog>.el-dialog>.el-dialog__body, .x-avatar-dialog>.el-dialog>.el-dialog__body,.el-dialog{
+    border-radius: 25px;
+    padding: 20px;
+}
+.el-dropdown-menu,.el-message-box,.el-popover
+{
+    background-color:var(--background);
+    border-color:var(--mainc);
+}
+.el-popper[x-placement^=bottom] .popper__arrow::after{border-bottom-color: var(--background);} /*little arrow guy background on the drop downs*/
+.el-popper[x-placement^=bottom] .popper__arrow{border-bottom-color: var(--mainc);} /*little arrow guy outline on the drop downs*/
+.el-button
+{
+    background-color:var(--background)!important;
+    border-color: var(--mainc)!important;
+}
+.el-button:not(.el-button--text,.el-button--primary,.is-disabled)
+{
+    background-color:var(--background);
+    border-color: var(--mainc);
+}
+.el-button:not(.el-button--text,.el-button--primary,.is-disabled):focus, .el-button:not(.el-button--text,.el-button--primary,.is-disabled):hover
+{
+    color:var(--mainc);
+    background-color:var(--background);
+    border-color: var(--mainc);
+}
+
+/*tables stuff*/
+.el-table
+{ 
+    color: var(--text); 
+    background-color: var(--mainc);
+}
+.el-table thead
+{
+    color: var(--text);
+}
+.el-table tr, .el-table td.el-table__cell, .el-table th.el-table__cell
+{
+    background-color: var(--bg2); /*table backgrounds 1*/
+    border-bottom: var(--mainc); /*border of them*/
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell
+{
+    background-color: var(--bg2);
+}
+/*Buttons below table lists*/ 
+.el-input__inner
+{   background: var(--bg2) !important; 
+    border-color:1px solid var(--mainc) !important;
+    border:1px solid var(--mainc) !important;
+    color: var(--text) !important; 
+}
+
+/*text and stuff*/
+.el-checkbox__input.is-checked+.el-checkbox__label{color: var(--mainc);}
+.el-popover{color: var(--text);}
+.el-message-box__headerbtn .el-message-box__close{color: var(--text);}
+.el-message-box__content,.el-message-box__title{color:var(--text);}
+.el-select-dropdown__item{color: var(--text);}
+.el-dialog__body
+{
+    color: var(--text);
+}
+.x-friend-item>.detail>.extra,.x-login-container p,.el-checkbox{color: var(--text);}
+.x-friend-item>.detail>.name{color: var(--text);}
+.el-tabs__item.is-active{color: var(--text);} /*user profile top bar thing with the words and the line doodad selected text*/
+.el-tabs__active-bar{background-color: var(--text);} /*user profile top bar thing with the words and the line doodad line below text (don't cry that its under text stuff looool)*/
+.el-tabs__item{color: var(--mainc);} /*Same as above but the non-selected ones*/
+.el-tabs__nav-wrap::after{background-color: var(--mainc);} /*and with an iq of above 2.4353 you can probably guess but this is the selected bar lol, someone just said hello children I AM the homebox so i thought i would document that like a personal journal cause i found it funny :) */
+.el-dropdown-menu__item{color: var(--text)} /*drop down menu text*/
+.el-pagination__total{color: var(--text);} /*"total" text*/
+.el-pager li.active{color: var(--mainc);} /*selected number below table text*/
+.el-pagination .btn-next, .el-pagination .btn-prev{background-color: var(--background)} /*buttons background*/
+body, input, textarea, select, button{color: var(--text);} /*header*/
+.el-switch__label.is-active {color: var(--mainc);}
+.el-switch__label {color: var(--text);}
+.el-tabs__item:hover{color: var(--mainc);}
+.el-radio__input.is-checked+.el-radio__label{color: var(--mainc);}
+.el-radio{color: var(--text);}
+.x-friend-list>.x-friend-group {color: var(--mainc);}
+.avatar-info-public{color: var(--green);}
+
+/*Icons and buttons and yea*/
+.el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{color: var(--disabled);}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner
+{
+    background-color: var(--mainc);
+    border-color: var(--mainc);
+}
+.el-tag--plain.el-tag--success{background-color: var(--background);}
+.el-tag--plain.el-tag--success{border-color: var(--green); color: var(--green);}
+.el-message-box__status.el-icon-info {color: var(--mainc);}
+.noty_theme__mint.noty_type__error
+{
+    color: var(--text);
+    background-color: var(--disabled);
+    border-color: var(--disabled);
+}
+.noty_theme__mint.noty_type__success
+{
+    color: var(--text);
+    background-color: var(--green);
+    border-color: var(--green);
+}
+.x-friend-item>.avatar.joinme::after{background:var(--blue)}
+i.x-user-status.joinme{background:var(--blue)}
+.x-friend-item>.avatar.online::after{background:var(--green);}
+i.x-user-status.online{background:var(--green);}
+.x-friend-item>.avatar.askme::after{background:var(--orange);}
+i.x-user-status.askme{background:var(--orange);}
+.avatar-info-own{color: var(--orange);}
+.x-friend-item>.avatar.busy::after{background:var(--disabled);}
+i.x-user-status.busy{background:var(--disabled);}
+.x-tag-platform-pc
+{
+    color:var(--mainc)!important;
+    border-color:var(--mainc)!important;
+}
+.x-tag-platform-quest
+{
+    color:var(--green)!important;
+    border-color:var(--green)!important;
+}
+.x-tag-friend, .x-tag-vrcplus
+{
+    color: var(--yellow)!important;
+    border-color: var(--yellow)!important;
+}
+
+span.el-switch__core.element.style
+{
+    border-color: var(--mainc-rgb);
+    background-color: var(--background-RGB);
+}
+.el-table__expand-icon{color: var(--mainc);}
+.el-button{color: var(--text);}
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active
+{
+    border-bottom-color: var(--mainc);
+    border-left-color: var(--mainc);
+}
+.el-tabs--card>.el-tabs__header .el-tabs__nav{border: 1px solid var(--mainc);}
+.el-tabs--card>.el-tabs__header .el-tabs__item{border-left-color: var(--mainc);}
+.el-menu-item.notify::after{background: var(--mainc);}
+.el-radio__input.is-checked .el-radio__inner
+{
+    border-color: var(--mainc);
+    background: var(--mainc);
+}
+.el-radio__inner::after{background-color: var(--background);}
+.el-menu-item i {color: var(--text);} /*sidebar icons*/
+.el-menu-item.is-active/*side bar selected icon*/
+{
+    color:var(--mainc);
+}
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev{color:var(--text)} /*the ... below tables*/
+.el-pager li{color: var(--text);} /*boxes below tables text*/
+.el-pagination .btn-next, .el-pagination .btn-prev{color:var(--text)}/*boxes arrow beside tables text*/
+.el-select .el-input .el-select__caret {color: var(--text);}/*boxes arrow beside tables text facing down guy*/
+.el-switch__core
+{
+    border-color: var(--mainc);
+    background-color: var(--background);
+}
+.el-switch.is-checked .el-switch__core /*switch toggles*/
+{
+    border-color: var(--mainc);
+    background-color: var(--background);
+}
+.el-switch__core:after {background-color: var(--mainc);}/*switch buttons*/
+.el-slider__bar {background-color: var(--mainc);}
+.el-slider__runway {background-color: var(--text);}
+.el-slider__button
+{
+    border: var(--mainc);
+    background-color: var(--mainc);
+}
+.el-radio-button__inner
+{
+    color: var(--text);
+    background: var(--background);
+    border: 1px solid var(--mainc);
+}
+.el-radio-button__orig-radio:checked+.el-radio-button__inner
+{
+    color: var(--mainc);
+    border-color: var(--mainc);
+    background-color: var(--background);
+}
+.el-radio-button__inner:hover{color: var(--mainc)};
+.el-radio-button__orig-radio:disabled+.el-radio-button__inner
+{
+    color: var(--mainc);
+    background-color: var(var(--background));
+    border-color: var(var(--mainc));
+}
+.el-radio__inner
+{
+    border: 1px solid var(--mainc);
+    background-color:var(--background);
+}
+.el-table .descending .sort-caret.descending{border-top-color: var(--mainc);} /*arrow top*/
+.el-table .ascending .sort-caret.ascending{border-bottom-color: var(--mainc)}/*arrow bottom*/
+::-webkit-scrollbar-track{
+    background:rgba(0,0,0,.0);
+    border-radius:16px
+}
+::-webkit-scrollbar-thumb{
+    background:rgba(189,147,249,1);
+    border-radius:16px
+}
+.el-tree-node__expand-icon{color: var(--mainc);}
+.el-tree-node__content:hover{background-color: var(--mainc);}
+.el-collapse-item__header
+{
+    color: var(--text);
+    border-bottom-color: var(--text);
+}
+
+body, input, textarea, select, button{color: var(--text);}
